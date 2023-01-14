@@ -38,7 +38,7 @@
 
 ## Employee table will look like
 
- ![Emp_table](.\images\emp_table.png)
+ ![Emp_table](./images/emp_table.png)
 
 ## Create table department
     CREATE TABLE `tutorials`.`dept` (
@@ -61,5 +61,5 @@
 
 ## Department table will look like
 
- ![Dept_table](.\images\dept_table.png)
+ ![Dept_table](./images/dept_table.png)
 

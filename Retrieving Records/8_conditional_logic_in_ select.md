@@ -24,3 +24,14 @@ between, then “OK” is returned. The result set should look like this:
 |JAMES  |950  | UNDERPAID|
 |FORD   |3000 |OK|
 |MILLER |1300 |UNDERPAID|
+
+## Solution
+
+    select empname,sal,
+    case when sal <= 2000 then 'UNDERPAID'
+    when sal >= 4000 then 'OVERPAID'
+    else 'OK'
+    end as salarystatus
+    from emp;
+
+![case](./images/case.png)

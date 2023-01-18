@@ -7,3 +7,10 @@ modify the following statement such that successive executions will produce a di
 
     select ename, job
     from emp
+
+## Solution
+
+    select empname, job
+    from emp order by rand() limit 5
+
+![order_by_rand](./images/order_by_rand.png)

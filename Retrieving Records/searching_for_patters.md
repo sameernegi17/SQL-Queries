@@ -35,4 +35,17 @@ ENAME
 
 ## Solution
 
+    select empname, job from emp where deptno in (10,20) 
+    and (empname like "%I%" or job like "%ER");
+
+![like_1](./images/like_1.png)
+
+    select empname, job from emp where deptno in (10,20) 
+    and (empname like "SM_TH");
+
+
+![like_2](./images/like_2.png)
+
+
+
 

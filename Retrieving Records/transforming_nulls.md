@@ -7,3 +7,7 @@ those nulls.
 
 ## Solution
 
+    select coalesce(comm,0) as commission from emp
+
+
+![coalese](./images/coalese.png) 

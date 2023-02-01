@@ -7,7 +7,6 @@ descending. You want to return the following result set:
 |-----|------|---|-----|---
 |7839|10|5000|KING|PRESIDENT
 |7782|10|2450|CLARK|MANAGER
-|7934|10|1300|MILLER|CLERK
 |7788|20|3000|SCOTT|ANALYST
 |7902|20|3000|FORD|ANALYST
 |7566|20|2975|JONES|MANAGER
@@ -15,3 +14,12 @@ descending. You want to return the following result set:
 |7369|20|800|SMITH|CLERK
 |7698|30|2850|BLAKE|MANAGER
 |7499|30|1600|ALLEN|SALESMAN
+
+## Solution
+
+    select empno, deptno, sal, empname, job
+    from emp
+    order by deptno, sal desc
+
+
+![multiple_fields](./images/multiple_fields.png)

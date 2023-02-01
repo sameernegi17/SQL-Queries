@@ -7,9 +7,18 @@ order based on their salary (from lowest to highest). You want to return the fol
 result set:
 ENAME | JOB | SAL|
 ------ |----|-----|
-MILLER|CLERK|1300
 CLARK|MANAGER|2450
 KING|PRESIDENT|5000
+
+## Solution
+
+    select empname, job, sal 
+    from emp 
+    where deptno = 10 
+    order by sal asc
+
+
+![sorting_1](./images/sorting_1.png)
 
 
 
